@@ -20,3 +20,12 @@ if (chickenPrice < myMoney){
 else{
     console.log('I will eat potato');
 }
+var isGraduated = true;
+var salary = 61000;
+var cars = 1;
+if(isGraduated === true || salary > 50000 || cars >= 1){
+    console.log('Eso Pream Kori');
+}
+else{
+    console.log('I need your friend number');
+}
