@@ -1,6 +1,6 @@
 // Problem Solving: 01
-function mindGame(number) {
-    let result = (number * 3 + 10) / 2 - 5;
+function mindGame(value) {
+    let result = (value * 3 + 10) / 2 - 5;
     console.log(result);
     return result;
 }
@@ -9,8 +9,8 @@ mindGame(50);
 mindGame(33);
 
 // Problem Solving: 02
-function evenOdd(string) {
-    if (string.length % 2 === 0){
+function evenOdd(Name) {
+    if (Name.length % 2 === 0){
     console.log("It's even");
     return "even";
  }
@@ -24,12 +24,12 @@ evenOdd("Batch7");
 evenOdd("chatgpt");
 
 // Problem Solving: 03
-function isLGSeven(number) {
-    if (number < 7) {
-    return number - 7;
+function isLGSeven(value) {
+    if (value < 7) {
+    return value - 7;
 }
     else {
-    return 2 * number;
+    return 2 * value;
 }
 }
 console.log(isLGSeven(6));
@@ -37,10 +37,10 @@ console.log(isLGSeven(-15));
 console.log(isLGSeven(15));
 
 // Problem Solving: 04
-function findingBadData(array) {
+function findingBadData(numArray) {
     let count = 0;
-    for (let i = 0; i < array.length; i++){
-      if (array[i] < 0) {
+    for (let i = 0; i < numArray.length; i++){
+      if (numArray[i] < 0) {
         count++;
       }
     }
