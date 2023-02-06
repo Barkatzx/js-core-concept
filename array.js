@@ -31,3 +31,12 @@ console.log(numbers)
 // Get Index Of An Element
 var positionIndex = numbers.indexOf(78);
 console.log(positionIndex);
+
+// Slice System
+var fruits = ('Mango', 'Orange', 'Apple', 'Bannana', 'Grapes', 'Jackfruit');
+fruits.slice(2, 4);
+console.log()
+
+// Includes True Or False
+var singer = ('Ariana Grande is Singing');
+singer.includes('Ariana');
